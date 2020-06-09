@@ -1,0 +1,20 @@
+{
+    "name": "Capture 1.2",
+    "version": "1.0",
+    "description": "Building a screenshot taking extension",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Take a screen shot!"
+    },
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "manifest_version": 2
+}
